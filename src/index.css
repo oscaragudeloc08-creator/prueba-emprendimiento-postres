@@ -1,0 +1,61 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --pink: #f9c4d2;
+  --pink-dark: #f4a0b8;
+  --pink-light: #fde8ef;
+  --lavender: #d8c8f0;
+  --lavender-dark: #c0a8e8;
+  --mint: #c2eee0;
+  --peach: #fddcca;
+  --peach-dark: #fbc4a8;
+  --cream: #fff8f0;
+  --yellow-light: #fef6c0;
+  --text-dark: #4a3728;
+  --text-mid: #7a5c4a;
+  --text-light: #b08a78;
+  --white: #ffffff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: var(--cream);
+  color: var(--text-dark);
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Playfair Display', serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  font-family: 'Lato', sans-serif;
+}
+
+input, textarea {
+  font-family: 'Lato', sans-serif;
+}
