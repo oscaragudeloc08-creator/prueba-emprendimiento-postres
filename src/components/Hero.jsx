@@ -10,7 +10,7 @@ export default function Hero() {
       <div className="hero__content">
         <p className="hero__tag">✨ Postres Artesanales</p>
         <h1 className="hero__title">
-          Endulza cada<br />
+          Amarga cada<br />
           <em>momento especial</em>
         </h1>
         <p className="hero__desc">
